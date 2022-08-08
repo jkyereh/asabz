@@ -1,0 +1,86 @@
+.creditly-wrapper {
+    background:none;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    font-size: 14px;
+    color: white;
+}
+.creditly-wrapper .credit-card-wrapper {
+ 
+}
+.creditly-wrapper input.has-error {
+  outline: none;
+  border-color: #ff7076;
+  border-top-color: #ff5c61;
+
+}
+.creditly-wrapper .form-control {
+    display: block;
+    width: 100%;
+    padding: 1.5em 0.8em;
+    font-size: 14px;
+    color: #777 !important;
+    border: 1px solid #ccc;
+    margin-bottom: 25px;
+	    outline: none;
+}
+.creditly-wrapper .form-control:focus {
+  border-color: #777;
+  outline: 0;
+}
+.creditly-wrapper label {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color:#222;
+    font-size: 15px;
+	 margin-left: 4px;
+}
+.creditly-wrapper .form-group {
+  width: 100%;
+  display: table;
+}
+.creditly-wrapper .card-type {
+  margin-top: 10px;
+}
+.creditly-card-form .submit {
+  overflow: hidden;
+  display: inline-block;
+  visibility: visible!important;
+  -webkit-font-smoothing: antialiased;
+  border: none;
+  padding: 1px;
+  text-decoration: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.creditly-card-form .submit span {
+    display: block;
+    position: relative;
+    padding: 9px 23px;
+    background: #B37B13;
+    font-size: 19px;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.creditly-card-form .submit span:hover{
+	background: #1F76D2;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}

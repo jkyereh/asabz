@@ -1,0 +1,258 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Youth and Digitization | </title>
+<!--css-->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--css-->
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Voluntary Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, sony ericsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/numscroller-1.0.js"></script>
+<script src="js/responsiveslides.min.js"></script>
+<script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	nav: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+	
+  </script>
+<!--web-font-->
+<link href='//fonts.googleapis.com/css?family=Carter+One' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!--web-font-->
+</head>
+<body>
+<!--header-->
+		<div class="header">
+			<div class="container">
+				<div class="heder-top">
+					<div class="logo">
+						<h1><a href="index.html">Tech Garage</a></h1>
+					</div>
+					<div class="header-right">
+						<div class="shy-menu">
+							<a class="shy-menu-hamburger">
+								<span class="layer top"></span>
+								<span class="layer mid"></span>
+								<span class="layer btm"></span>
+							</a>
+							<div class="shy-menu-panel">
+								<nav class="menu menu--horatio">
+									<ul class="menu__list">
+										<li class="menu__item menu__item--current"><a href="index.html" class="menu__link">Home</a></li>
+										<li class="menu__item"><a href="about.html" class="menu__link">About</a></li> 
+										<li class="menu__item"><a href="causes.html" class="menu__link">Causes </a></li>
+										<li class="menu__item"><a href="gallery.html" class="menu__link">Gallery</a></li> 
+										<li class="menu__item"><a href="program.html" class="menu__link">Program  </a></li>
+										<li class="menu__item"><a href="codes.html" class="menu__link">Codes</a></li> 
+										<li class="menu__item"><a href="contact.html" class="menu__link">Contact</a></li>
+									</ul>
+								</nav>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="menu open">
+						  <a class="hamburger">
+							<span class="layer top"></span>
+							<span class="layer mid"></span>
+							<span class="layer btm"></span>
+						  </a>
+						</div>
+						<script>
+							$(function() {
+								
+								initDropDowns($("div.shy-menu"));
+
+							});
+
+							function initDropDowns(allMenus) {
+
+								allMenus.children(".shy-menu-hamburger").on("click", function() {
+									
+									var thisTrigger = jQuery(this),
+										thisMenu = thisTrigger.parent(),
+										thisPanel = thisTrigger.next();
+
+									if (thisMenu.hasClass("is-open")) {
+
+										thisMenu.removeClass("is-open");
+
+									} else {			
+										
+										allMenus.removeClass("is-open");	
+										thisMenu.addClass("is-open");
+										thisPanel.on("click", function(e) {
+											e.stopPropagation();
+										});
+									}
+									
+									return false;
+								});
+							}
+						</script>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="banner-text">
+					<h3>We're dedicated to uplifting the Youth in Technology</h3>
+					<a href="donate.html" class="but hvr-rectangle-out">Donate Now</a>
+				</div>
+			</div>
+		</div>
+		<!--header-->
+		<div class="content">
+			<div class="banner-bottom">
+				<div class="container">
+					<div class="banner-grids">
+					<div class="col-md-8 banner-grid1">
+							<h2 class="tittle1">Welcome TO The <span>Tech Garage</span></h2>
+							<h5>Our Values</h5>
+							<p>We pride ourseleve in being the household name associated with the current paradigm shift in Technology in Ghana.
+								This has been possible by putting in place the right measures and guiding principles. 
+								<br>
+								Our values include:
+								<ul>
+									<li>Leadership</li>
+									<li>Passion</li>
+									<li>Collaboration</li>
+									<li>Diversity</li>
+									<li>Accountability</li>
+
+								</ul>
+							</p>
+							<a href="about.html" class="button hvr-rectangle-out">Read more</a>
+						</div>
+						<div class="col-md-4 banner-grid">
+							<img src="images/p2.jpg" alt=" " class="img-responsive" />
+
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+			<div class="help-section">
+				<div class="container">	
+				<h3 class="tittle">Our Projects</h3>
+					<div class="help-grids">
+						<div class="col-md-4 help-grid">
+							<h4>Women In Tech</h4>
+							<p>We beliebe women should be a part of soceity and the future, hence our dedicated program to women. 
+								This is aimed as introducing as many women as possible to technology. The technologies assessed in this program include AI, Data Analysis, 
+								Web Development and Programming.</p>
+						</div>
+						<div class="col-md-4 help-grid">
+							<h4>Wed Development For Everyone</h4>
+							<p>We have a complete Web Development  program opened to anyone interested. PArticipants learn the current tech stacks used in modern day web.
+								This program is designed to take anyone from Zero to Hero in just about 6 months. The Youth is our primary focus in this program.
+							</p>
+						</div>
+						<div class="col-md-4 help-grid">
+							<h4>Youth In Digitization</h4>
+							<p>Technology is fast evolving and hence they're so many aspects of tech to be covered. Our Youth in Digitization program handles all these other tech
+								like Networking, Hardware installations, Satelite tunning, Phone repairs and all other related technologies.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>	
+			</div>	
+			<!---Organization--->		
+			<div class="organization">
+				<div class="container">
+					<div class="organization-grids">
+						<div class="col-md-8 organization-grid">
+							<figure>
+						<img src="images/p.jpg" alt=" " class="img-responsive" />
+						<figcaption>
+							<h4>Voluntary</h4>
+							<p>Nullam velit metus tristique id purus eget consequat congue loreml orem ipsum dolor sit amet consectetur adipiscing elit. Praesent vesti Cum sociis natoque penatibus et magnis dis parturient montes ascetur ridiculus .</p>
+						</figcaption>
+					</figure>
+
+						</div>
+						<div class="col-md-4 organization-grid1">
+							<h3 class="tittle">Who We Are ?<span></span></h3>
+							<h3>Our Mission</h3>
+							<p>Our mission is to equip the average youth with digital skills relevant to survival and development, with a future proof approach .</p>
+							<br>
+							<h3>Our Vision</h3>
+							<p>We aim to be at the forefront of all Digital and Tech activities in Ghana.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+			<!---Organization--->	
+		<hr>
+				
+		<!---footer--->
+			<div class="footer-section">
+				<div class="container">
+					<div class="footer-grids">
+					<div class="col-md-4 footer-grid">
+						<h4>Newsletter</h4>
+							<p>Lorem Ipsum available, but the majority have suffe red by injected humour, randomised words which don't look even.</p>
+							<form action="#" method="post">
+								<input type="text" name="Email" placeholder="enter email address" required>
+								<input type="submit" value="Go">
+							</form>
+						</div>
+						<div class="col-md-4 footer-grid">
+						<h4>Causes links</h4>
+						<ul>
+							<li><a href="donate.html">Donate</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="causes.html">Causes</a></li>
+							<li><a href="gallery.html">Gallery</a></li>
+							<li><a href="contact.html">Contact us</a></li>
+						</ul>
+						</div>
+						<div class="col-md-4 footer-grid">
+							<h4>Voluntary</h4>
+							<p>Mauris eget quam orci. Quisque porta varius duiuis posuere nibh mollis quis auris commodo rhoncus porttitor.Lorem Ipsum available, but the majority have suffe red by injected humour, randomised words which don't look even.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+		<!---footer--->
+		<!---copy--->
+			<div class="copy-section">
+				<div class="container">
+					<div class="social-icons">
+						<a href="#"><i class="icon1"></i></a>
+						<a href="#"><i class="icon2"></i></a>
+						<a href="#"><i class="icon3"></i></a>
+						<a href="#"><i class="icon4"></i></a>
+					</div>
+					<div class="copy">
+						<p>&copy; 2016  Voluntary . All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<!---copy--->
+
+</body>
+</html>
